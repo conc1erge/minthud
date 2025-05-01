@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/128992555/228401876-c5b25765-8207-4430-ad2c-f18313d32593.png" width=500px>
+    <img src="https://github.com/conc1erge/minthud/blob/master/resource/minthud.png?raw=true" width=500px>
     
 </p>
 
