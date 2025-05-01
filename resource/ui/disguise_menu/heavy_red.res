@@ -1,19 +1,24 @@
-#base "scout_red.res"
+#base "heavy_blue.res"
 
-"Resource/UI/Disguise_Menu/Heavy_Red.res"
+"Resource/UI/disguise_menu/heavy_red.res"
 {
-	"ClassIcon"
+	"ClassIcon"	
 	{
-		"icon"										"hud_menu_heavy_red"
+		"icon"			"hud_menu_heavy_red"
 	}
-
+	
+	"BorderColor"
+	{	
+		"bgcolor_override"	"softred200"
+	}
+	
 	"NewNumberLabel"
 	{
-		"labelText"									"2"
+		"bgcolor_override"	"softred200"
 	}
-
+	
 	"NumberLabel"
-	{
-		"labelText"									"5"
+	{		
+		"bgcolor_override"	"softred200"
 	}
 }

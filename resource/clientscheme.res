@@ -1,8 +1,4 @@
-// colours
-#base "../resource/scheme/colours.res"
-
-// fonts
-#base "../resource/scheme/fonts.res"
-
-// the rest lol
-#base "../resource/scheme/default.res"
+"#base"	"../resource/scheme/colours.res"
+"#base"	"../resource/scheme/fonts.res"
+"#base"	"../resource/scheme/default.res"
+"#base"	"clientscheme_collyhud.res"

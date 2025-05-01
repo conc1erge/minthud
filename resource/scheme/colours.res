@@ -2,11 +2,11 @@
 {
 	"Colors"
 	{		
-		"Health Numbers"									"235 235 235 255"
+		"Health Numbers"									"150 235 150 255"
 	
 		"Ammo In Clip"										"235 235 235 255"
-		"Ammo In Reserve"									"0 255 100 255"
-		"Ammo No Clip"										"235 235 235 255"
+		"Ammo In Reserve"									"255 125 0 255"
+		"Ammo No Clip"										"155 155 155 255"
 
 		"LowPulse1"											"250 80 80 255"
 		"LowPulse2"											"160 50 50 255"
@@ -28,6 +28,11 @@
 		"LightGray"											"212 212 212 255"
 		"Metal"												"137 159 179 255"
 		"Gray"												"165 165 165 255"
+
+		"REDteam"											"230 26 23 255"
+		"BLUteam"											"25 175 225 255"
+		"REDteam Desat"										"229 114 112 255"
+		"BLUteam Desat"										"104 196 227 255"
 	}
 
 	"BaseSettings"

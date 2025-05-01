@@ -1,19 +1,31 @@
-#base "scout_red.res"
+#base "heavy_blue.res"
 
-"Resource/UI/Disguise_Menu/Sniper_Red.res"
+"Resource/UI/disguise_menu/heavy_red.res"
 {
-	"ClassIcon"
+	"ItemNameLabel"
 	{
-		"icon"										"hud_menu_sniper_red"
+		"labelText"		"#TF_Class_Name_Sniper"
+	}
+	
+	"BorderColor"
+	{	
+		"bgcolor_override"	"softred200"
 	}
 
+	"ClassIcon"	
+	{
+		"icon"			"hud_menu_sniper_red"
+	}
+	
 	"NewNumberLabel"
 	{
-		"labelText"									"2"
+		"labelText"		"2"
+		"bgcolor_override"	"softred200"
 	}
-
+	
 	"NumberLabel"
-	{
-		"labelText"									"8"
+	{		
+		"labelText"		"8"
+		"bgcolor_override"	"softred200"
 	}
 }
