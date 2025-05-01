@@ -55,7 +55,7 @@
 		"ypos"			0
 		"zpos"			"3"
 		"wide"			"f"
-		"tall"			"20"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
