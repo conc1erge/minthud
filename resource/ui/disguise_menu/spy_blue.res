@@ -1,26 +1,19 @@
-#base "heavy_blue.res"
+#base "scout_red.res"
 
-"Resource/UI/disguise_menu/heavy_red.res"
+"Resource/UI/Disguise_Menu/Spy_Blue.res"
 {
-	"ItemNameLabel"
+	"ClassIcon"
 	{
-		"labelText"		"#TF_Class_Name_Spy"
+		"icon"										"hud_menu_spy_blu"
 	}
 
-	"ClassIcon"	
-	{
-		"icon"			"hud_menu_spy_blu"
-	}
-	
 	"NewNumberLabel"
 	{
-		"labelText"		"3"
-		"bgcolor_override"	"softblue200"
+		"labelText"									"3"
 	}
-	
+
 	"NumberLabel"
-	{		
-		"labelText"		"9"
-		"bgcolor_override"	"softblue200"
+	{
+		"labelText"									"9"
 	}
 }

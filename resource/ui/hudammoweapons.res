@@ -37,7 +37,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"HealthFont"
+		"font"			"LargeHealthFont"
 		"fgcolor"		"Ammo in Clip"
 		"xpos"			"10"
 		"ypos"			"42"
@@ -54,7 +54,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"HealthFont"
+		"font"			"LargeHealthFont"
 		"fgcolor"		"0 0 0 255"
 		"xpos"			"-1"
 		"ypos"			"-1"

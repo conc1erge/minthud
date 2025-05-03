@@ -1,7 +1,6 @@
 
 <p align="center">
-    <img src="https://github.com/conc1erge/minthud/blob/master/resource/minthud.png?raw=true" width=500px>
-    
+    <img src="https://github.com/conc1erge/minthud/blob/master/resource/image.png?raw=true" width=500px>
 </p>
 
 ## A simplistic competitive TF2 hud, modified by conc1erge.

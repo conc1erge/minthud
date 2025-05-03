@@ -1,6 +1,6 @@
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 		Alpha		"128"								Linear 	0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.2 0.4
 	
 	Animate PlayerStatusHealthvalueSpec			Alpha 		"255"								Linear 	0.0 0.01

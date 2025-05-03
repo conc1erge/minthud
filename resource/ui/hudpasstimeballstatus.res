@@ -32,12 +32,12 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventTitleLabel"
 		"dropshadow"	"1"
-		"font"			"HudFontBiggerBold"
+		"font"			"LargeHealthFont"
 		"xpos"			0
 		"ypos"			c100
 		"zpos"			"3"
 		"wide"			"f"
-		"tall"			"25"
+		"tall"			"25" // default is 25
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
@@ -49,13 +49,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventBonusLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"SmallHealthFont"
 		"dropshadow"	"1"
 		"xpos"			0
 		"ypos"			0
 		"zpos"			"3"
 		"wide"			"f"
-		"tall"			"0"
+		"tall"			"20" // default is 20
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
@@ -70,13 +70,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventDetailLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"SmallHealthFont"
 		"dropshadow"	"1"
 		"xpos"			0
 		"ypos"			0
 		"zpos"			"3"
 		"wide"			"f"
-		"tall"			"24"
+		"tall"			"24" // default is 24
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
@@ -309,7 +309,7 @@
 		"ypos" "32"
 		"zpos" "5"
 		"wide" "f0"
-		"tall" "f0"
+		"tall" "0" // default is f0
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"

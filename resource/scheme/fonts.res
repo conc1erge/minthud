@@ -73,7 +73,7 @@
 			"1"
 			{
 				"name"										"Product Sans Bold"
-				"tall"										"16"
+				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
 				"outline"									"1"
@@ -480,17 +480,6 @@
 				"outline"									"1"
 			}
 		}
-		Product24Shadow
-		{
-			"1"
-			{
-				"name"										"Product Sans"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}		
 		Product25Outline
 		{
 			"1"
@@ -632,17 +621,6 @@
 				"tall"										"36"
 				"additive"									"0"
 				"antialias" 								"1"
-			}
-		}
-		Product36BoldOutline
-		{
-			"1"
-			{
-				"name"										"Product Sans Bold"
-				"tall"										"36"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"1"
 			}
 		}
 

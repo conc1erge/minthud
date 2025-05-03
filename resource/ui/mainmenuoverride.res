@@ -1,5 +1,3 @@
-"#base"	"../../resource/extra/preload.res"
-"#base"	"mainmenuoverride_preload.res"
 "Resource/UI/MainMenuOverride.res"
 {
 	"MainMenuOverride"
