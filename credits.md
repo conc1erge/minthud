@@ -10,3 +10,7 @@ https://www.glitchprod.com/murder-drones
 
 - the 4v4 PASS Time community for the PASS Time HUD mods
 https://passtime.tf/
+
+- yesod and colly (yesodColly a.k.a yesodHUD) for gamemode elements, timer, match status and matchmaking panels; yesodHUD credits followed
+https://github.com/yesod404/yesodCollyHUD
+https://github.com/yesod404/yesodCollyHUD#credits
