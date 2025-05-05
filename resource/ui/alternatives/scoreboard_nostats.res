@@ -71,9 +71,9 @@
 	{
 		"ControlName"	       						"SectionedListPanel"
 		"fieldName"		        					"BluePlayerList"
-		"xpos"			          					"c-205"
+		"xpos"			          					"c-265"
 		"ypos"			          					"c0"
-		"wide"			         					"180"
+		"wide"			         					"240"
 		"tall"			          					"180"
 		"zpos"			          					"20"
 		"enabled"		          					"1"
@@ -88,7 +88,7 @@
 		"fieldName"									"RedPlayerList"
 		"xpos"			          					"c20"
 		"ypos"			          					"c0"
-		"wide"			          					"180"
+		"wide"			          					"240"
 		"tall"			          					"180"
 		"zpos"			          					"20"
 		"visible"		         					"1"
@@ -112,7 +112,7 @@
 		"font"										"Product22Bold"
 		"labelText"									"%blueteamscore%"
 		"textAlignment"								"east"
-		"fgcolor"   								"White"
+		"fgcolor"   								""
 
 		"if_mvm"
 		{

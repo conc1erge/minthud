@@ -70,7 +70,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventDetailLabel"
-		"font"			"RL16"
+		"font"			"Product12"
 		"dropshadow"	"1"
 		"xpos"			0
 		"ypos"			0
@@ -81,7 +81,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"A TEAM STOLE THE BALL"
-		fgcolor_override	"224 217 197 255"
+		fgcolor_override	"255 255 255 255"
 		pin_to_sibling			EventTitleLabel
 		pin_corner_to_sibling	4
 		pin_to_sibling_corner	6
