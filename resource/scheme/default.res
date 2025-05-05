@@ -2,11 +2,11 @@ Scheme
 {
 	Colors
 	{		
-		"Orange"			"178 82 22 255"
-		"OrangeDim"			"178 82 22 120"
-		"LightOrange"		"188 112 0 128"
+		"Orange"			"255 117 31 255"
+		"OrangeDim"			"255 130 52 120"
+		"LightOrange"		"255 186 108 176"
 		"GoalOrange"		"255 133 0"
-		"TFOrange"			"145 73 59 255"
+		"TFOrange"			"190 64 39 255"
 		"Purple"			"137 69 99 255"
 
 		"QuestGold"			"208 147 75 255"
@@ -44,6 +44,7 @@ Scheme
 		"GreenSolid"		 "76 107 34 255"
 
 		"Black"				"46 43 42 255"
+		"Transparent"		"255 255 255 0"
 		"TransparentBlack"	"0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
@@ -204,10 +205,10 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
-		ReplayBrowser.BgColor								"DarkBrown"
+		ReplayBrowser.BgColor								"Transparent"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
-		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
-		ReplayBrowser.Button.DepressedBgColor				"TFOrange"
+		ReplayBrowser.Button.ArmedBgColor					"Transparent"
+		ReplayBrowser.Button.DepressedBgColor				"Transparent"
 		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
 		ReplayBrowser.Warning.FgColor						"White"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
@@ -304,7 +305,7 @@ Scheme
 		Menu.ArmedBgColor				"TanLight"
 		Menu.TextInset					"6"
 
-		Chat.TypingText					"Orange"
+		Chat.TypingText					"Blue"
 
 		Panel.FgColor					"Gray"
 		Panel.BgColor					"Blank"

@@ -1,15 +1,14 @@
 #base "base_active.res"
 
-"Resource/UI/Destroy_Menu/Dispenser_Active.res"
+"Resource/UI/destroy_menu/dispenser_active.res"
 {
-	"BuildingIcon"
+	"ItemNameLabel"
 	{
-		"xpos"										"cs-0.5+1"
-		"icon"										"obj_status_dispenser"
+		"labelText"		"#TF_Object_Dispenser"
 	}
-
+	
 	"NumberLabel"
-	{
-		"labelText"									"2"
+	{	
+		"labelText"		"2"
 	}
 }

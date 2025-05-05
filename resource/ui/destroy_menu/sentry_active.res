@@ -1,15 +1,14 @@
 #base "base_active.res"
 
-"Resource/UI/Destroy_Menu/Sentry_Active.res"
+"Resource/UI/destroy_menu/sentry_active.res"
 {
-	"BuildingIcon"
+	"ItemNameLabel"
 	{
-		"xpos"										"cs-0.5+1"
-		"icon"										"obj_status_sentrygun_2"
+		"labelText"		"#TF_Object_Sentry"
 	}
-
+	
 	"NumberLabel"
-	{
-		"labelText"									"1"
+	{	
+		"labelText"		"1"
 	}
 }

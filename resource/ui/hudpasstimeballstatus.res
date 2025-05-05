@@ -31,36 +31,36 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventTitleLabel"
+		"font"			"RL20Bold"
 		"dropshadow"	"1"
-		"font"			"LargeHealthFont"
 		"xpos"			0
-		"ypos"			c100
+		"ypos"			r422
 		"zpos"			"3"
 		"wide"			"f"
-		"tall"			"25" // default is 25
+		"tall"			"16" // default is 25
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"A TEAM STOLE THE BALL"
-		fgcolor_override	"224 217 197 255"
+		fgcolor_override	"255 255 255 255"
 	}
 
 	"EventBonusLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventBonusLabel"
-		"font"			"SmallHealthFont"
+		"font"			"Product8Bold"
 		"dropshadow"	"1"
 		"xpos"			0
 		"ypos"			0
 		"zpos"			"3"
 		"wide"			"f"
-		"tall"			"20" // default is 20
+		"tall"			"10" // default is 20
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		""
-		fgcolor_override	"255 235 35 200"
+		fgcolor_override	"255 242 95 200"
 		pin_to_sibling			EventTitleLabel
 		pin_corner_to_sibling	6
 		pin_to_sibling_corner	4
@@ -70,13 +70,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventDetailLabel"
-		"font"			"SmallHealthFont"
+		"font"			"RL16"
 		"dropshadow"	"1"
 		"xpos"			0
 		"ypos"			0
 		"zpos"			"3"
 		"wide"			"f"
-		"tall"			"24" // default is 24
+		"tall"			"12" // default is 24
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
@@ -92,7 +92,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ProgressLevelBar"	
 		"xpos"			"c-190"
-		"ypos"			"r88"
+		"ypos"			"r52"
 		"zpos"			"0"
 		"wide"			"380"
 		"tall"			"48"
@@ -110,7 +110,7 @@
 		"ControlName" 	"Panel"
 		"fieldName"		"BlueProgressEnd"
 		"xpos"			"c-152"
-		"ypos"			"r64"
+		"ypos"			"r28"
 		"visible"		"0"
 	}
 
@@ -121,7 +121,7 @@
 		"ControlName"	"Panel"
 		"fieldName"		"RedProgressEnd"
 		"xpos"			"c152"
-		"ypos"			"r64"
+		"ypos"			"r28"
 		"visible"		"0"
 	}	
 
@@ -130,7 +130,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"GoalBlue0"	
 		"xpos"			"c-162"
-		"ypos"			"r72"
+		"ypos"			"r36"
 		"zpos"			"1"									
 		"wide"			"17"
 		"tall"			"17"
@@ -149,7 +149,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"GoalBlue1"	
 		"xpos"			"c-132"
-		"ypos"			"r72"
+		"ypos"			"r36"
 		"zpos"			"1"									
 		"wide"			"17"
 		"tall"			"17"
@@ -168,7 +168,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"GoalBlue2"	
 		"xpos"			"c-102"
-		"ypos"			"r72"
+		"ypos"			"r36"
 		"zpos"			"1"									
 		"wide"			"17"
 		"tall"			"17"
@@ -188,7 +188,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"GoalRed0"	
 		"xpos"			"c146"
-		"ypos"			"r72"
+		"ypos"			"r36"
 		"zpos"			"1"									
 		"wide"			"17"
 		"tall"			"17"
@@ -207,7 +207,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"GoalRed1"
 		"xpos"			"c116"
-		"ypos"			"r72"
+		"ypos"			"r36"
 		"zpos"			"1"									
 		"wide"			"17"
 		"tall"			"17"
@@ -227,7 +227,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"GoalRed2"
 		"xpos"			"c86"
-		"ypos"			"r72"
+		"ypos"			"r36"
 		"zpos"			"1"									
 		"wide"			"17"
 		"tall"			"17"
@@ -267,8 +267,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-100"
-		"wide"			"42"
-		"tall"			"42"
+		"wide"			"24"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -287,14 +287,14 @@
 		"enabled"				"1"
 		"zpos"					"-400"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"c144"
 		"wide"					"150"
 		"tall"					"16"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"1"
 		"labelText"				"NameOfCarrier"
-		pin_to_sibling			ProgressLevelBar
+		pin_to_sibling			EventTitleLabel
 		pin_corner_to_sibling	4
 		pin_to_sibling_corner	6
 	}

@@ -1,14 +1,26 @@
-#base "scout_red.res"
+#base "heavy_blue.res"
 
-"Resource/UI/Disguise_Menu/Demoman_Blue.res"
+"Resource/UI/disguise_menu/heavy_red.res"
 {
-	"ClassIcon"
+	"ItemNameLabel"
 	{
-		"icon"										"hud_menu_demoman_blu"
+		"labelText"		"#TF_Class_Name_Demoman"
 	}
 
-	"NumberLabel"
+	"ClassIcon"	
 	{
-		"labelText"									"4"
+		"icon"			"hud_menu_demoman_blu"
+	}
+	
+	"NewNumberLabel"
+	{
+		"labelText"		"1"
+		"bgcolor_override"	"softblue200"
+	}
+	
+	"NumberLabel"
+	{		
+		"labelText"		"4"
+		"bgcolor_override"	"softblue200"
 	}
 }

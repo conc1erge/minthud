@@ -6,5 +6,5 @@
 // Make sure only one line is uncommented or it will break
 
 
-#base "../../resource/ui/alternatives/matchstatus_big.res"	    // LARGE MATCH STATUS [DEFAULT]
-//#base "../../resource/ui/alternatives/matchstatus_small.res"	// SMALL MATCH STATUS
+//#base "../../resource/ui/alternatives/matchstatus_big.res"	    // LARGE MATCH STATUS [DEFAULT]
+#base "../../resource/ui/alternatives/matchstatus_small.res"	// SMALL MATCH STATUS

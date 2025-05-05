@@ -32,7 +32,7 @@ Resource/UI/HudPasstimePassNotify.res
 		ControlName 				EditablePanel
 		fieldName 					TextBox
 		xpos 						c-150
-		ypos 						c-180
+		ypos 						c60
 		zpos 						1
 		wide 						300
 		tall 						56
@@ -40,66 +40,72 @@ Resource/UI/HudPasstimePassNotify.res
 		enabled 					1
 		border						TFFatLineBorder
 		RoundedCorners				255
+		paintbackground				0
+		paintborder					0
 
 		TextInPassRange
 		{
 			ControlName 			CExLabel
 			fieldName 				TextInPassRange
-			font 					HudFontMediumSmallBold
+			font 					Product16BoldOutline
+			dropshadow				1
 			xpos 					0
 			ypos 					0
 			zpos 					3
 			wide 					300
-			tall 					32
+			tall 					60
 			visible 				1
 			enabled 				1
 			centerwrap				1
 			textAlignment 			center
 			labelText 				#Msg_PasstimeInPassRange
-			fgcolor_override 		"224 217 197 180"
+			fgcolor_override 		"255 210 85 180"
 		}
 
 		TextLockedOn
 		{
 			ControlName 			CExLabel
 			fieldName 				TextLockedOn
-			font 					HudFontMediumSmallBold
+			font 					Product16BoldOutline
+			dropshadow				1
 			xpos 					0
 			ypos 					0
 			zpos 					3
 			wide 					300
-			tall 					40
+			tall 					60
 			visible 				1
 			enabled 				1
 			centerwrap				1
 			textAlignment 			center
 			labelText 				#Msg_PasstimeLockedOn
-			fgcolor_override 		"224 217 197 180"
+			fgcolor_override 		"255 118 38 180"
 		}
 
 		TextPassIncoming
 		{
 			ControlName 			CExLabel
 			fieldName 				TextPassIncoming
-			font 					HudFontMediumSmallBold
+			font 					Product16BoldOutline
+			dropshadow				1
 			xpos 					0
 			ypos 					4
 			zpos 					3
 			wide 					300
-			tall 					32
+			tall 					52
 			visible 				1
 			enabled 				1
 			centerwrap				1
 			textAlignment 			center
 			labelText 				#Msg_PasstimePassIncoming
-			fgcolor_override 		"224 217 197 180"
+			fgcolor_override 		"206 47 255 180"
 		}
 
 		TextPlayerName
 		{
 			ControlName 			CExLabel
 			fieldName 				TextPlayerName
-			font 					HudFontSmall
+			font 					Product20Bold
+			dropshadow				1
 			xpos 					0
 			ypos 					40
 			zpos 					3
@@ -109,7 +115,7 @@ Resource/UI/HudPasstimePassNotify.res
 			enabled 				1
 			textAlignment 			center
 			labelText 				"WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
-			fgcolor_override 		"224 217 197 180"
+			fgcolor_override 		"255 255 255 180"
 		}	
 	}
 
@@ -117,18 +123,18 @@ Resource/UI/HudPasstimePassNotify.res
 	{
 		ControlName 				ImagePanel
 		fieldName 					PassLockIndicator
-		xpos 						-8
-		ypos 						14
-		wide 						64
+		xpos 						-12
+		ypos 						0
+		wide 						24
 		zpos 						3
-		tall 						64
+		tall 						24
 		visible 					1
 		enabled 					1
 		scaleImage 					1
 		image 						"../passtime/hud/passtime_ball_reticle_incomingpass"
 		pin_to_sibling 				TextBox
 		pin_corner_to_sibling 		0
-		pin_to_sibling_corner 		1
+		pin_to_sibling_corner 		6
 	}
 
 	SpeechIndicator
@@ -138,8 +144,8 @@ Resource/UI/HudPasstimePassNotify.res
 		xpos 						8
 		ypos 						8
 		zpos 						3
-		wide 						48
-		tall 						48
+		wide 						32
+		tall 						32
 		visible 					1
 		enabled 					1
 		scaleImage 					1

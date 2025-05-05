@@ -1,9 +1,26 @@
-#base "scout_red.res"
+#base "heavy_blue.res"
 
-"Resource/UI/Disguise_Menu/Scout_Blue.res"
+"Resource/UI/disguise_menu/heavy_red.res"
 {
-	"ClassIcon"
+	"ItemNameLabel"
 	{
-		"icon"										"hud_menu_scout_blu"
+		"labelText"		"#TF_Class_Name_Scout"
+	}
+
+	"ClassIcon"	
+	{
+		"icon"			"hud_menu_scout_blu"
+	}
+	
+	"NewNumberLabel"
+	{
+		"labelText"		"1"
+		"bgcolor_override"	"softblue200"
+	}
+	
+	"NumberLabel"
+	{		
+		"labelText"		"1"
+		"bgcolor_override"	"softblue200"
 	}
 }

@@ -1,19 +1,31 @@
-#base "scout_red.res"
+#base "heavy_blue.res"
 
-"Resource/UI/Disguise_Menu/Engineer_Red.res"
+"Resource/UI/disguise_menu/heavy_red.res"
 {
-	"ClassIcon"
+	"ItemNameLabel"
 	{
-		"icon"										"hud_menu_engineer_red"
+		"labelText"		"#TF_Class_Name_Engineer"
+	}
+	
+	"BorderColor"
+	{	
+		"bgcolor_override"	"softred200"
 	}
 
+	"ClassIcon"	
+	{
+		"icon"			"hud_menu_engineer_red"
+	}
+	
 	"NewNumberLabel"
 	{
-		"labelText"									"3"
+		"labelText"		"3"
+		"bgcolor_override"	"softred200"
 	}
-
+	
 	"NumberLabel"
-	{
-		"labelText"									"6"
+	{		
+		"labelText"		"6"
+		"bgcolor_override"	"softred200"
 	}
 }
