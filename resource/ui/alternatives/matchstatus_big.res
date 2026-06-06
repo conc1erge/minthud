@@ -172,7 +172,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
-			"labelText"								"00:00"
+			"labelText"								"0:00"
 		}
 	}
 

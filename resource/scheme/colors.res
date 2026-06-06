@@ -2,7 +2,7 @@
 {
 	"Colors"
 	{		
-		"Health Numbers"									"174 255 126 255"
+		"Health Numbers"									"255 255 255 255"
 	
 		"Ammo In Clip"										"255 255 255 255"
 		"Ammo In Reserve"									"255 115 0 255"
@@ -28,8 +28,6 @@
 		"LightGray"											"212 212 212 255"
 		"Metal"												"137 159 179 255"
 		"Gray"												"165 165 165 255"
-		"BLUTeam"											"53 90 255 255"
-		"REDTeam"											"255 90 52 255"
 	}
 
 	"BaseSettings"

@@ -179,6 +179,19 @@
 		"enabled"	"1"
 		"PaintBackgroundType"	"2"
 	}
+	"DisguiseStatus"
+	{
+		"fieldName"	"DisguiseStatus"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"	"10" [$WIN32]
+		"ypos"	"r70" [$WIN32]
+		"xpos"	"50" [$X360]
+		"ypos"	"330" [$X360]
+		"wide"	"500"
+		"tall"	"200"
+		"TextFont"	"Default" [$X360]
+	}
 	"CMainTargetID"
 	{
 		"fieldName"	"CMainTargetID"
@@ -225,6 +238,34 @@
 			"ypos"	"330"
 			"x_offset"	"20"
 		}
+	}
+	"BuildingStatus_Spy"
+	{
+		"fieldName"	"BuildingStatus_Spy"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"	"0" [$WIN32]
+		"ypos"	"0" [$WIN32]
+		"xpos"	"32" [$X360]
+		"ypos"	"16" [$X360]
+		"wide"	"640"
+		"tall"	"480"
+		"PaintBackgroundType"	"2"
+	}
+	"BuildingStatus_Engineer"
+	{
+		"fieldName"	"BuildingStatus_Engineer"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"	"0"
+		"xpos_hidef"	"32"
+		"xpos_lodef"	"40"
+		"ypos"	"0"
+		"ypos_hidef"	"16"
+		"ypos_lodef"	"25"
+		"wide"	"640"
+		"tall"	"480"
+		"PaintBackgroundType"	"2"
 	}
 	"HudMannVsMachineStatus"
 	{
@@ -747,6 +788,16 @@
 		"wide"	"292"
 		"tall"	"64"
 	}
+	"HudUpgradePanel"
+	{
+		"fieldName"	"HudUpgradePanel"
+		"visible"	"0"
+		"enable"	"1"
+		"xpos"	"c-200"
+		"ypos"	"260"
+		"wide"	"400"
+		"tall"	"160"
+	}
 	"HudChat"
 	{
 		"ControlName"	"EditablePanel"
@@ -759,6 +810,53 @@
 		"wide"	"320"
 		"tall"	"120"
 		"PaintBackgroundType"	"2"
+	}
+	"HudMenuEngyBuild"
+	{
+		"fieldName"	"HudMenuEngyBuild"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"	"c-225"
+		"ypos"	"c-55"
+		"wide"	"450"
+		"tall"	"195"
+		"PaintBackgroundType"	"0"
+	}
+	"HudMenuEngyDestroy"
+	{
+		"fieldName"	"HudMenuEngyDestroy"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"	"c-225"
+		"ypos"	"c-59"
+		"wide"	"450"
+		"tall"	"200"
+		"PaintBackgroundType"	"0"
+	}
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName"	"HudEurekaEffectTeleportMenu"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"	"c-125"
+		"ypos"	"c-55"
+		"wide"	"250"
+		"tall"	"195"
+		"PaintBackgroundType"	"0"
+	}
+	"HudMenuSpyDisguise"
+	{
+		"fieldName"	"HudMenuSpyDisguise"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"	"c-235"
+		"ypos"	"c-52"
+		"ypos_hidef"	"c-42"
+		"ypos_lodef"	"c-42"
+		"wide"	"470"
+		"tall"	"200" [$WIN32]
+		"tall"	"180" [$X360]
+		"PaintBackgroundType"	"0"
 	}
 	"HudDemomanPipes"
 	{
@@ -1074,6 +1172,19 @@
 		"wide"	"40"
 		"tall"	"40"
 		"priority"	"40"
+	}
+	"HudMenuTauntSelection"
+	{
+		"fieldName"	"HudMenuTauntSelection"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"	"c-235"
+		"ypos"	"c-52"
+		"ypos_hidef"	"c-42"
+		"ypos_lodef"	"c-42"
+		"wide"	"470"
+		"tall"	"200"
+		"PaintBackgroundType"	"0"
 	}
 	"ItemAttributeTracker"
 	{

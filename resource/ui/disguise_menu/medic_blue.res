@@ -1,26 +1,14 @@
-#base "heavy_blue.res"
+#base "scout_red.res"
 
-"Resource/UI/disguise_menu/heavy_red.res"
+"Resource/UI/Disguise_Menu/Medic_Blue.res"
 {
-	"ItemNameLabel"
+	"ClassIcon"
 	{
-		"labelText"		"#TF_Class_Name_Medic"
+		"icon"										"hud_menu_medic_blu"
 	}
 
-	"ClassIcon"	
-	{
-		"icon"			"hud_menu_medic_blu"
-	}
-	
-	"NewNumberLabel"
-	{
-		"labelText"		"1"
-		"bgcolor_override"	"softblue200"
-	}
-	
 	"NumberLabel"
-	{		
-		"labelText"		"7"
-		"bgcolor_override"	"softblue200"
+	{
+		"labelText"									"7"
 	}
 }

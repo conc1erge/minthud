@@ -1,152 +1,179 @@
+// Default File
+#base "../../default/resource/ui/hudobjectivekothtimepanel.res"
+
 "Resource/UI/HudObjectiveKothTimePanel.res"
-{
+{	
 	"HudKothTimeStatus"
 	{
-		if_comp
+		if_match
 		{
 			"zpos"		"5"
 		}
 	}
 	
-	"StripBlue"
+	"TimeBGBlue"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"StripBlue"
-		"xpos"			"2"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"40"
-		"tall"			"2"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"fillcolor"		"softblue"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TimeBGBlue"
+		"xpos"			"4"
+		"ypos"			"4"
+		"zpos"			"20"
+		"wide"			"2"
+		"tall"	 		"16"
 		"visible"		"1"
 		"enabled"		"1"
+		"image"			"replay/thumbnails/newhudblue"
+		"scaleImage"		"1"
 
-		if_mvm
-		{
-			"visible"		"0"
-		}
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
-	"StripRed"
+	
+	"TimeBGRed"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"StripRed"
-		"xpos"			"46"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"40"
-		"tall"			"2"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"fillcolor"		"softred"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TimeBGRed"
+		"xpos"			"52"
+		"ypos"			"4"
+		"zpos"			"20"
+		"wide"			"2"
+		"tall"	 		"16"
 		"visible"		"1"
 		"enabled"		"1"
+		"image"			"replay/thumbnails/newhudred"
+		"scaleImage"		"1"
 
-		if_mvm
-		{
-			"visible"		"0"
-		}
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
+
 	"BlueTimer"
 	{
-		"ControlName"		"CTFHudTimeStatus"
-		"fieldName"			"BlueTimer"
-		"xpos"				"2"
+		"xpos"				"0"
+		"xpos_minmode"		"0"
 		"ypos"				"0"
-		"zpos"				"2"
-		"wide"				"200"
-		"tall"				"150"
-		"visible"			"1"
-		"enabled"			"1"
-		"delta_item_x"			"9999"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"ypos_minmode"		"0"
+		"wide"				"f0"
+		"tall"				"f0"
 
-
+		if_match
+		{
+			"xpos"					"0"
+			"xpos_minmode"			"0"
+			"ypos"					"0"
+			"ypos_minmode"			"0"
+		}
+		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"TimePanelValue"
-			"font"			"productbold13"
-			"fgcolor"		"245 245 245 110"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"40"
-			"tall"			"20"
-			"textinsety"			"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"border"		"noborder"
-			"bgcolor_override"		"0 0 0 165"
-			"textAlignment"		"center"
-			"labelText"		"0:00"
-		}
+			"font"			"Size 18"
+			"font_minmode"	"Size 18"
+			"font_lodef"	"Size 18"
+			"fgcolor"		"WhiteColor"
+			"xpos"			"10"
+			"xpos_minmode"	"10"
+			"xpos_hidef"	"10"
+			"xpos_lodef"	"10"
+			"ypos"			"4"
+			"ypos_minmode"	"4"
+			"ypos_hidef"	"4"
+			"ypos_lodef"	"4"
+			
+			"wide"			"100"
+			"wide_minmode"	"100"
+			"wide_lodef"	"100"
+			"tall"			"15"
+			
+			"textAlignment"		"west"
+
+			if_match
+			{
+				"xpos"			"10"
+				"xpos_minmode"	"10"
+				"ypos"			"4"
+				"ypos_minmode"	"4"
+				"wide"			"100"
+				"wide_minmode"	"100"
+				"tall"			"15"
+				"font"			"Size 18"
+				"font_minmode"	"Size 18"
+				"font_lodef"	"Size 18"
+			}
+		}	
 	}
 
 	"RedTimer"
 	{
-		"ControlName"		"CTFHudTimeStatus"
-		"fieldName"			"RedTimer"
-		"xpos"				"46"
+		"xpos"				"48"
+		"xpos_minmode"		"48"
 		"ypos"				"0"
-		"zpos"				"2"
-		"wide"				"100"
-		"tall"				"150"
-		"visible"			"1"
-		"enabled"			"1"
-		"delta_item_x"			"9999"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"ypos_minmode"		"0"
+		
+		"wide"				"f0"
+		"tall"				"f0"
 
+		if_match
+		{
+			"xpos"					"48"
+			"xpos_minmode"			"48"
+			"ypos"					"0"
+			"ypos_minmode"			"0"
+		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"TimePanelValue"
+			"font"			"Size 18"
+			"font_minmode"	"Size 18"
+			"font_lodef"	"Size 18"
+			"fgcolor"		"WhiteColor"
+			"xpos"			"10"
+			"xpos_minmode"	"10"
+			"xpos_hidef"	"10"
+			"xpos_lodef"	"10"
+			"ypos"			"4"
+			"ypos_minmode"	"4"
+			"ypos_hidef"	"4"
+			"ypos_lodef"	"4"
+			
+			"wide"			"100"
+			"wide_minmode"	"100"
+			"wide_lodef"	"100"
+			"tall"			"15"
+			
+			"textAlignment"		"west"
 
-			"font"			"productbold13"
-			"fgcolor"		"245 245 245 110"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"40"
-			"tall"			"20"
-			"textinsety"			"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"border"		"noborder"
-			"bgcolor_override"		"0 0 0 165"
-			"textAlignment"		"center"
-			"labelText"		"0:00"
-		}
+			if_match
+			{
+				"xpos"			"10"
+				"xpos_minmode"	"10"
+				"ypos"			"4"
+				"ypos_minmode"	"4"
+				"wide"			"100"
+				"wide_minmode"	"100"
+				"tall"			"15"
+				"font"			"Size 18"
+				"font_minmode"	"Size 18"
+				"font_lodef"	"Size 18"
+			}
+		}	
 	}
-
+	
 	"ActiveTimerBG"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"ActiveTimerBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"221"
-		"wide"				"40"
-
-		"tall"				"22"
-		"visible"			"1"
-		"enabled"			"1"
-		"bgcolor_override"			"255 255 255 0"
-		"bgcolor"			"255 255 255 0"
-		"border"			"noborder"
+		"ypos"				"4"
+		"ypos_minmode"		"4"
+		"zpos"				"-1"
+		"wide"				"44"
+		"wide_minmode"		"44"
+		"tall"				"16"
+		"tall_minmode"		"16"
+		
+		"image"				"replay/thumbnails/newhudblack"
 	}
 }

@@ -1,246 +1,270 @@
+// Default File
+#base "../../default/resource/ui/hudobjectivetimepanel.res"
+
 "Resource/UI/HudObjectiveTimePanel.res"
-{
-	"TimePanelBG"
+{	
+	"TimeBG"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TimePanelBG"
-		"xpos"			"38"
-		"ypos"			"0"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TimeBG"
+		"xpos"			"4"
+		"ypos"			"4"
 		"zpos"			"2"
-		"wide"			"0"
-		"alpha"			"0"
-	}
-	"TimerBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"TimerBG"
-		"xpos"			"38"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"44"
-		"alpha"			"0"
-		"border"			"noborder"
-		"alpha"			"0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		"wide"			"2"
+		"tall"	 		"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"255 255 255 0"
+		"image"			"replay/thumbnails/newhudblack"
+		"scaleImage"		"1"
+		"teambg_1"		"replay/thumbnails/newhudblack"
+		"teambg_2"		"replay/thumbnails/newhudred"
+		"teambg_3"		"replay/thumbnails/newhudblue"
+
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
+	"TimePanelBG"
+	{
+		"visible"		"0"
+	}
+	"TimePanelProgressBar"
+	{	
+		"visible"			"0"
+	}
+	"AnchorLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"AnchorLabel"
+		"xpos"			"10"
+		"ypos"			"21"
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"11"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"textAlignment"	"west"
+		"font"			"Size 11"
+	}	
 	"WaitingForPlayersLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"0"
-		"wide"			"40"
-		"textinsety"			"0"
-		"textinsetx"			"0"
-		"tall"			"15"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"waiting"
-		"textAlignment"		"center"
-		"bgcolor_override"		"0 0 0 165"
-		"fgcolor_override"		"245 245 245 165"
-		"paintbackgroundtype"	"2"
-		"roundedcorners"	"0"
-		"border"		"noborder"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"			"0"
-		"font"			"product8"
-	}
-	"WaitingForPlayersBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"0"
-		"ypos"			"19"
-		"wide"			"40"
-		"tall"			"1"
-		"zpos"			"12"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"			"250 250 250 0"
-		"border"		"LightWhiteLine"
-		"paintborder"		"1"
-	}
+		"xpos_hidef"	"0"
+		"xpos_lodef"	"0"
+		"ypos"			"0"
+		"ypos_minmode"	"0"
+		"ypos_hidef"	"0"
+		"ypos_lodef"	"0"
+		"zpos"			"5"
+		"wide"			"100"
+		"wide_hidef"	"100"
+		"wide_lodef"	"100"
+		"tall"			"11"
+		"tall_hidef"	"11"
+		"tall_lodef"	"11"
+		
+		"textAlignment"	"west"
+		
+		"font"			"Size 11"
+		"font_hidef"	"Size 11"
+		"font_lodef"	"Size 11"
+
+		if_match
+		{
+			"xpos"			"0"
+			"ypos"			"0"
+			"ypos_minmode"	"0"
+			"wide"			"100"
+			"font"			"Size 11"
+			"font_hidef"	"Size 11"
+			"font_lodef"	"Size 11"
+		}
+		
+		"pin_to_sibling" "AnchorLabel"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
+	}			
+	
 	"OvertimeLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"OvertimeLabel"
 		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"0"
-		"wide"			"40"
-		"textinsety"			"0"
-		"textinsetx"			"0"
-		"tall"			"15"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"overtime"
-		"textAlignment"		"center"
-		"bgcolor_override"		"0 0 0 165"
-		"fgcolor_override"		"245 245 245 165"
-		"paintbackgroundtype"	"2"
-		"roundedcorners"	"0"
-		"border"		"noborder"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"			"0"
-		"font"			"product8"
-	}
-	"OvertimeBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"OvertimeBG"
-		"xpos"			"0"
-		"ypos"			"19"
-		"wide"			"40"//34
-		"tall"			"1"
-		"zpos"			"12"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"			"250 250 250 0"
-		"border"		"LightWhiteLine"
-		"paintborder"		"1"
-	}
+		"xpos_hidef"	"0"
+		"xpos_lodef"	"0"
+		"ypos"			"0"
+		"ypos_minmode"	"0"
+		"ypos_hidef"	"0"
+		"ypos_lodef"	"0"
+		"zpos"			"5"
+		"wide"			"100"
+		"wide_hidef"	"100"
+		"wide_lodef"	"100"
+		"tall"			"11"
+		"tall_hidef"	"11"
+		"tall_lodef"	"11"
+		
+		"textAlignment"	"west"
+		
+		"font"			"Size 11"
+		"font_hidef"	"Size 11"
+		"font_lodef"	"Size 11"
+
+		if_match
+		{
+			"xpos"					"0"
+			"ypos"					"0"
+			"ypos_minmode"			"0"
+			"wide"					"100"
+			"font"			"Size 11"
+			"font_hidef"	"Size 11"
+			"font_lodef"	"Size 11"
+		}
+		
+		"pin_to_sibling" "AnchorLabel"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
+	}	
+	
 	"SuddenDeathLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"0"
-		"wide"			"40"
-		"textinsety"			"0"
-		"textinsetx"			"0"
-		"tall"			"15"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"#game_SuddenDeath"
-		"textAlignment"		"center"
-		"bgcolor_override"		"0 0 0 165"
-		"fgcolor_override"		"245 245 245 165"
-		"paintbackgroundtype"	"2"
-		"roundedcorners"	"0"
-		"border"		"noborder"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"			"0"
-		"font"			"product5"
+		"xpos_hidef"	"0"
+		"xpos_lodef"	"0"
+		"ypos"			"0"
+		"ypos_minmode"	"0"
+		"ypos_hidef"	"0"
+		"ypos_lodef"	"0"
+		"zpos"			"5"
+		"wide"			"100"
+		"wide_hidef"	"100"
+		"wide_lodef"	"100"
+		"tall"			"11"
+		"tall_hidef"	"11"
+		"tall_lodef"	"11"
+		
+		"textAlignment"	"west"
+		
+		"font"			"Size 11"
+		"font_hidef"	"Size 11"
+		"font_lodef"	"Size 11"
+
+		if_match
+		{
+			"xpos"					"0"
+			"ypos"					"0"
+			"ypos_minmode"			"0"
+			"wide"					"100"
+			"font"			"Size 11"
+			"font_hidef"	"Size 11"
+			"font_lodef"	"Size 11"
+		}
+		
+		"pin_to_sibling" "AnchorLabel"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
+	}
+	
+	"SetupLabel"
+	{
+		"xpos"			"0"
+		"xpos_hidef"	"0"
+		"xpos_lodef"	"0"
+		"ypos"			"0"
+		"ypos_minmode"	"0"
+		"ypos_hidef"	"0"
+		"ypos_lodef"	"0"
+		"zpos"			"5"
+		"wide"			"100"
+		"wide_hidef"	"100"
+		"wide_lodef"	"100"
+		"tall"			"11"
+		"tall_hidef"	"11"
+		"tall_lodef"	"11"
+		
+		"textAlignment"	"west"
+		
+		"font"			"Size 11"
+		"font_hidef"	"Size 11"
+		"font_lodef"	"Size 11"
+
+		if_match
+		{
+			"xpos"					"0"
+			"ypos"					"0"
+			"ypos_minmode"			"0"
+			"wide"					"100"
+			"font"			"Size 11"
+			"font_hidef"	"Size 11"
+			"font_lodef"	"Size 11"
+		}
+		
+		"pin_to_sibling" "AnchorLabel"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
+	}	
+	
+	"ServerTimeLimitLabel"
+	{
+		"xpos"			"0"
+		"xpos_hidef"	"0"
+		"xpos_lodef"	"0"
+		"ypos"			"0"
+		"ypos_minmode"	"0"
+		"ypos_hidef"	"0"
+		"ypos_lodef"	"0"
+		"zpos"			"5"
+		"wide"			"100"
+		"wide_hidef"	"100"
+		"wide_lodef"	"100"
+		"tall"			"11"
+		"tall_hidef"	"11"
+		"tall_lodef"	"11"
+		
+		"textAlignment"	"west"
+		
+		"font"			"Size 11"
+		"font_hidef"	"Size 11"
+		"font_lodef"	"Size 11"
+
+		if_match
+		{
+			"xpos"					"0"
+			"ypos"					"0"
+			"ypos_minmode"			"0"
+			"wide"					"100"
+			"font"			"Size 11"
+			"font_hidef"	"Size 11"
+			"font_lodef"	"Size 11"
+		}
+		
+		"pin_to_sibling" "AnchorLabel"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
+	}
+
+
+	
+	"WaitingForPlayersBG"
+	{
+		"xpos"			"r-10"	[$WIN32]
+	}	
+	"OvertimeBG"
+	{
+		"xpos"			"r-10"	[$WIN32]
 	}
 	"SuddenDeathBG"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"SuddenDeathBG"
-		"xpos"			"3"
-		"ypos"			"19"
-		"wide"			"34"
-		"tall"			"1"
-		"zpos"			"12"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"			"250 250 250 0"
-		"border"		"LightWhiteLine"
-		"paintborder"		"1"
-	}
-	"SetupLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SetupLabel"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"0"
-		"wide"			"40"
-		"textinsety"			"0"
-		"textinsetx"			"0"
-		"tall"			"15"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"setup"
-		"textAlignment"		"center"
-		"bgcolor_override"		"0 0 0 165"
-		"fgcolor_override"		"245 245 245 165"
-		"paintbackgroundtype"	"2"
-		"roundedcorners"	"0"
-		"border"		"noborder"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"			"0"
-		"font"			"product8"
+		"xpos"			"r-10"	[$WIN32]
 	}
 	"SetupBG"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"SetupBG"
-		"xpos"			"3"
-		"ypos"			"19"
-		"wide"			"34"
-		"tall"			"1"
-		"zpos"			"12"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"			"250 250 250 0"
-		"border"		"LightWhiteLine"
-		"paintborder"		"1"
-	}
-	"ServerTimeLimitLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"0"
-		"wide"			"40"
-		"textinsety"			"0"
-		"textinsetx"			"0"
-		"tall"			"15"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"%servertimeleft%"
-		"textAlignment"		"center"
-		"bgcolor_override"		"0 0 0 165"
-		"fgcolor_override"		"245 245 245 165"
-		"paintbackgroundtype"	"2"
-		"roundedcorners"	"0"
-		"border"		"noborder"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"			"0"
-		"font"			"product8"
+		"xpos"			"r-10"	[$WIN32]
 	}
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"3"
-		"ypos"			"19"
-		"wide"			"34"
-		"tall"			"1"
-		"zpos"			"12"
-		"alpha"			"255"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"			"250 250 250 0"
-		"border"		"LightWhiteLine"
-		"paintborder"		"1"
+		"xpos"			"r-10"	[$WIN32]
 	}
 }

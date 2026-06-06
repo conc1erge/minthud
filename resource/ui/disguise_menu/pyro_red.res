@@ -1,31 +1,19 @@
-#base "heavy_blue.res"
+#base "scout_red.res"
 
-"Resource/UI/disguise_menu/heavy_red.res"
+"Resource/UI/Disguise_Menu/Pyro_Red.res"
 {
-	"ItemNameLabel"
+	"ClassIcon"
 	{
-		"labelText"		"#TF_Class_Name_Pyro"
-	}
-	
-	"BorderColor"
-	{	
-		"bgcolor_override"	"softred200"
+		"icon"										"hud_menu_pyro_red"
 	}
 
-	"ClassIcon"	
-	{
-		"icon"			"hud_menu_pyro_red"
-	}
-	
 	"NewNumberLabel"
 	{
-		"labelText"		"3"
-		"bgcolor_override"	"softred200"
+		"labelText"									"3"
 	}
-	
+
 	"NumberLabel"
-	{		
-		"labelText"		"3"
-		"bgcolor_override"	"softred200"
+	{
+		"labelText"									"3"
 	}
 }

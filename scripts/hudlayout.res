@@ -13,17 +13,17 @@
 	}
 	"HudKothTimeStatus"
 	{
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
+		"blue_active_xpos"	"4"
+		"blue_active_xpos_minmode"	"4"
+		"red_active_xpos"	"52"
+		"red_active_xpos_minmode"	"52"
 		"fieldName"	"HudKothTimeStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"	"c-44"
-		"ypos"	"6"
-		"wide"	"200"
-		"tall"	"160"
-		"blue_active_xpos"	"0"
-		"blue_active_xpos_minmode"	"0"
-		"red_active_xpos"	"48"
-		"red_active_xpos_minmode"	"48"
 	}
 	"HudItemEffectMeter"
 	{
@@ -88,8 +88,8 @@
 	"CHealthAccountPanel"
 	{
 		"fieldName"	"CHealthAccountPanel"
-		"xpos"	"c-175"
-		"ypos"	"c70"
+		"xpos"	"5"
+		"ypos"	"435"
 		"wide"	"116"
 		"tall"	"180"
 		"visible"	"1"
@@ -125,10 +125,13 @@
 		"fieldName"	"DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"	"35" [$WIN32]
-		"ypos"	"426" [$WIN32]
-		"wide"	"f0"
-		"tall"	"f0"
+		"xpos"	"80" [$WIN32]
+		"ypos"	"r70" [$WIN32]
+		"xpos"	"50" [$X360]
+		"ypos"	"330" [$X360]
+		"wide"	"500"
+		"tall"	"200"
+		"TextFont"	"Default" [$X360]
 	}
 	"CMainTargetID"
 	{
@@ -168,21 +171,11 @@
 		"fieldName"	"BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"	"-6"
-		"ypos"	"150+1"
-		"wide"	"640"
+		"xpos"	"-10"
+		"ypos"	"120"
+		"wide"	"f0"
 		"tall"	"480"
 		"PaintBackgroundType"	"2"
-	}
-	"HudObjectiveStatus"
-	{
-		"fieldName"		"HudObjectiveStatus"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
 	}
 	"HudRoundTimerHudRoundTimer"
 	{
@@ -240,16 +233,16 @@
 	}
 	"HudControlPointIcons"
 	{
-		"fieldName"	"HudControlPointIcons"
 		"xpos"	"0"
-		"ypos"	"10"
+		"ypos"	"410"
 		"wide"	"f0"
 		"tall"	"200"
 		"visible"	"1"
 		"enabled"	"1"
-		"separator_width"	"4"
-		"separator_height"	"6"
+		"separator_width"	"3"
+		"separator_height"	"3"
 		"height_offset"	"0" [$WIN32]
+		"fieldName"	"HudControlPointIcons"
 		"height_offset"	"26" [$X360]
 	}
 	"WinPanel"
@@ -303,10 +296,10 @@
 		"fieldName"	"HudMenuEngyBuild"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"f0"
+		"xpos"	"c-225"
+		"ypos"	"c-112"
+		"wide"	"450"
+		"tall"	"200"
 		"PaintBackgroundType"	"0"
 	}
 	"HudMenuEngyDestroy"
@@ -314,10 +307,10 @@
 		"fieldName"	"HudMenuEngyDestroy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"f0"
+		"xpos"	"c-225"
+		"ypos"	"c-112"
+		"wide"	"450"
+		"tall"	"200"
 		"PaintBackgroundType"	"0"
 	}
 	"HudEurekaEffectTeleportMenu"
@@ -325,10 +318,10 @@
 		"fieldName"	"HudEurekaEffectTeleportMenu"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"f0"
+		"xpos"	"c-125"
+		"ypos"	"c-110"
+		"wide"	"250"
+		"tall"	"195"
 		"PaintBackgroundType"	"0"
 	}
 	"HudMenuSpyDisguise"
@@ -336,10 +329,10 @@
 		"fieldName"	"HudMenuSpyDisguise"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"f0"
+		"xpos"	"c-235"
+		"ypos"	"c-110"
+		"wide"	"470"
+		"tall"	"200"
 		"PaintBackgroundType"	"0"
 	}
 	"HudMenuTauntSelection"
@@ -347,11 +340,11 @@
 		"fieldName"	"HudMenuTauntSelection"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"	"7"
-		"ypos"	"c-0"
+		"xpos"	"c-235"
+		"ypos"	"c-65"
 		"zpos"	"20"
-		"wide"	"88"
-		"tall"	"194"
+		"wide"	"470"
+		"tall"	"200"
 		"PaintBackgroundType"	"0"
 	}
 	"HudDemomanPipes"
@@ -391,10 +384,12 @@
 		"fieldName"	"HudStopWatch"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"	"r76"
-		"ypos"	"6"
-		"wide"	"70"
-		"tall"	"20"
+		"xpos"	"0"
+		"ypos"	"0"
+		"ypos_minmode"	"0"
+		"ypos_lodef"	"0"
+		"wide"	"f0"
+		"tall"	"480"
 	}
 	"HudArenaClassLayout"
 	{
@@ -480,27 +475,6 @@
 		"wide"	"0"
 		"tall"	"0"
 	}
-	"CurrencyStatusPanel"
-	{
-		"ControlName"	"CCurrencyStatusPanel"
-		"fieldName"	"CurrencyStatusPanel"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"f0"
-		"visible"	"1"
-		"enabled"	"1"
-	}
-	"HudUpgradePanel"
-	{
-		"fieldName"	"HudUpgradePanel"
-		"visible"	"0"
-		"enable"	"1"
-		"xpos"	"c-200"
-		"ypos"	"260"
-		"wide"	"400"
-		"tall"	"160"
-	}
 	"HudObjectiveStatus"
 	{
 		"fieldName"	"HudObjectiveStatus"
@@ -510,17 +484,6 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
-	}
-	"BuildingStatus_Spy"
-	{
-		"fieldName"	"BuildingStatus_Spy"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"	"-6"
-		"ypos"	"150+1"
-		"wide"	"640"
-		"tall"	"480"
-		"PaintBackgroundType"	"2"
 	}
 	"HudMatchStatus"
 	{
